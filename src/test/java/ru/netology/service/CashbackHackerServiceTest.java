@@ -34,7 +34,7 @@ public class CashbackHackerServiceTest {
     @Test
     public void test1000() {
         CashbackHackerService service = new CashbackHackerService();
-        int expected = 1000;
+        int expected = 0;
         int actual = service.remain(1000);
         Assert.assertEquals(actual, expected);
     }
